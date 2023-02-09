@@ -1,0 +1,40 @@
+/* POPULAR */
+.popular .column {
+  width: 100%;
+}
+
+.popular .card {
+  cursor: pointer;
+  height: 259px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular .card img {
+  transition: transform 0.5s;
+}
+
+.popular .card:hover img {
+  transform: scale(1.2);
+}
+
+.popular .image-block {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular .cat_title {
+  display: flex;
+  height: 57px;
+  padding: 0 26px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #303030;
+}

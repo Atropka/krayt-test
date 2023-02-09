@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Prata&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+/* FONTS AND TEXT-SETTINGS */
+
+html {
+  font-family: inter, Prata, sans-serif;
+  font-size: 62.5%;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input,
+textarea {
+  font-family: inter, Prata, sans-serif;
+}
+textarea {
+  resize: none;
+}
+.heading {
+  font-family: "Prata";
+  font-weight: 400;
+  line-height: 1;
+  color: #303030;
+}
+
+.heading.high {
+  font-size: 3.4rem;
+}
+
+.heading.midle {
+  font-size: 2.6rem;
+}
+
+.heading.smalest {
+  font-size: 2rem;
+}
+
+.header .mid-side p {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: 0.27em;
+  color: #919191;
+  white-space: nowrap;
+}
+
+.header .mid-side .header_logo_name_1 {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #e1a661;
+  margin-right: 7px;
+}
+.header .mid-side .header_logo_name_2 {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #303030;
+}
+
+.intro_slider .slider .desc {
+  font-family: "Prata";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1;
+  color: #303030;
+}
+
+.sale .price-current {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: #303030;
+}
+
+.sale .price-old {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration-line: line-through;
+  color: #8f8f8f;
+}
+
+.sale .card .percent {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #ffffff;
+  width: 50px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e24b33;
+  border-radius: 999px;
+}
+
+.sale .choose p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #303030;
+}
+
+.sale .adv .desc {
+  position: relative;
+  z-index: 2;
+  max-width: 198px;
+  font-weight: 600;
+  font-size: 16;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.sale .adv .percent span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.sale .adv .percent .number {
+  margin-left: 13px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Product */
+
+.product .tag {
+  width: 50px;
+  height: 21px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #ffffff;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product .articul {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #8f8f8f;
+}
+
+.product .price-current {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: #303030;
+}
+
+.product .price-old {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration-line: line-through;
+  color: #8f8f8f;
+}
+
+.product .percent {
+  width: 50px;
+  height: 21px;
+  border-radius: 999px;
+  background-color: #e24b33;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product .timer .number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: #303030;
+}
+
+.product .timer .desc {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1;
+  color: #303030;
+}
+
+.product .color .subtitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #303030;
+  margin-bottom: 16px;
+}
+
+.product .size .subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1;
+  color: #303030;
+}
+
+.product .size .info div {
+  display: none;
+  padding: 24px;
+  width: 271px;
+  height: 148px;
+  position: absolute;
+  bottom: 32px;
+  left: 256%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #303030;
+}
+
+.product .size-list-item {
+  user-select: none;
+  cursor: pointer;
+  width: 50px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #303030;
+  border: 1px solid #dadada;
+  transition: 0.3s ease-in-out;
+}
+
+.product .action-item .label {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1;
+  color: #303030;
+  transition: 0.2s ease-in-out;
+}
+
+/* Articles */
+
+.articles .articles-cta {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #303030;
+  transition: 0.3s ease-in-out;
+}
+
+.articles .card .date {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1;
+  color: #8f8f8f;
+}
+
+.articles .card .title {
+  margin-top: 12px;
+  margin-bottom: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  color: #303030;
+}

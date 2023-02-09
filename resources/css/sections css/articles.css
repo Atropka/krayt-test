@@ -1,0 +1,43 @@
+/* ARTICLES */
+.articles .head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.articles .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.articles .card a {
+  justify-content: center;
+  display: flex;
+}
+
+.articles .card img {
+  display: block;
+  width: 100%;
+}
+
+.articles .card .title a {
+  color: #303030;
+}
+
+.articles .articles-cta:hover {
+  opacity: 0.5;
+}
+
+.articles .articles-cta:hover img {
+  padding-left: 8px;
+}
+
+.articles .articles-cta img {
+  width: 26px;
+  margin-left: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.articles .column {
+  width: 100%;
+}

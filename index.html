@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goldy Store</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./resources/css/reset.css" />
+    <link rel="stylesheet" href="./resources/css/fonts.css" />
+    <link rel="stylesheet" href="./resources/css/base_styles.css" />
+    <link rel="stylesheet" href="./resources/css/sections css/header.css" />
+    <link
+      rel="stylesheet"
+      href="./resources/css/sections css/intro_slider.css"
+    />
+    <link rel="stylesheet" href="./resources/css/mobile css/mobile_menu.css" />
+    <link
+      rel="stylesheet"
+      href="./resources/css/sections css/popular_cat.css"
+    />
+    <link rel="stylesheet" href="./resources/css/sections css/sale.css" />
+    <link rel="stylesheet" href="./resources/css/sections css/d_product.css" />
+    <link rel="stylesheet" href="./resources/css/sections css/articles.css" />
+    <link rel="stylesheet" href="./resources/css/mobile css/responsive.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- HEAD -->
+      <section class="Head">
+        <header class="header">
+          <div class="head">
+            <div class="left-side">
+              <!-- Left side of header -->
+              <div class="location toggle-menu">
+                <div class="content">
+                  <img src="./resources/images/icons/location.svg" alt="" />
+                  <p class="value">Санкт-Петербург</p>
+                </div>
+                <div class="toggle-list">
+                  <ul class="toggle-list-block">
+                    <li class="item active">Санкт-Петербург</li>
+                    <li class="item">Москва</li>
+                    <li class="item">Нижний Новгород</li>
+                    <li class="item">Ростов-на-Дону</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="block">
+                <a href="#" class="number">
+                  <img src="./resources/images/icons/phone.svg" alt="" />
+                  <p>8 800 785-25-35</p>
+                </a>
+
+                <div class="toggle-menu-mobile">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <!-- MOBILE MENU -->
+                <section class="Mobile Menu">
+                  <div class="layout"></div>
+                  <div class="menu-mobile">
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                    <div class="search-mobile">
+                      <p>MENU</p>
+                      <input type="text" placeholder="Поиск по сайту" />
+                    </div>
+                    <div class="toggle-menu">
+                      <p class="value">Санкт-Петербург</p>
+                      <div class="toggle-list">
+                        <ul class="toggle-list-block">
+                          <li class="item active">Санкт-Петербург</li>
+                          <li class="item">Москва</li>
+                          <li class="item">Нижний Новгород</li>
+                          <li class="item">Ростов-на-Дону</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="categories-mobile">
+                      <li class="cat_mobile">
+                        <a href="#">Акции</a>
+                      </li>
+                      <li class="cat_mobile">
+                        <a href="#">Бренды</a>
+                      </li>
+                      <li class="cat_mobile">
+                        <a href="#">Магазины</a>
+                      </li>
+                      <li class="cat_mobile">
+                        <a href="#">О нас</a>
+                      </li>
+                      <li class="cat_mobile">
+                        <a href="#">Доставка и оплата</a>
+                      </li>
+                      <li class="cat_mobile">
+                        <a href="#">Статьи</a>
+                      </li>
+                    </ul>
+                    <a href="#" class="cat_menu">
+                      <button class="btn primary">Вход</button>
+                    </a>
+                    <a href="#" class="cat_menu">
+                      <button class="btn primary">Регистрация</button>
+                    </a>
+                  </div>
+                </section>
+              </div>
+            </div>
+            <div class="mid-side">
+              <!-- Mid side of header -->
+              <div class="main_logo">
+                <span class="header_logo_name_1">Goldy</span>
+                <span class="header_logo_name_2">Store</span>
+              </div>
+
+              <p>ювелирный магазин</p>
+            </div>
+            <div class="right-side">
+              <!-- Right side of header -->
+              <div class="auth">
+                <a href="#" class="login">Вход</a>
+                <span></span>
+                <a href="#" class="sign">Регистрация</a>
+              </div>
+              <div class="act">
+                <button class="action heart">
+                  <img src="./resources/images/icons/heart.svg" alt="" />
+                  <span>23</span>
+                </button>
+                <button class="action">
+                  <img src="./resources/images/icons/chart.svg" alt="" />
+                </button>
+                <button class="action">
+                  <img src="./resources/images/icons/bag.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hide">
+            <div class="categories">
+              <p class="category disabled"><a href="#">Каталог</a></p>
+              <p class="category">
+                <a href="#">Акции</a>
+              </p>
+              <p class="category">
+                <a href="#">Бренды</a>
+              </p>
+              <p class="category">
+                <a href="#">Магазины</a>
+              </p>
+              <p class="category">
+                <a href="#">О нас</a>
+              </p>
+              <p class="category">
+                <a href="#">Доставка и оплата</a>
+              </p>
+              <p class="category">
+                <a href="#">Статьи</a>
+              </p>
+            </div>
+            <div class="search">
+              <div class="icon">
+                <img src="./resources/images/icons/search.svg" alt="" />
+              </div>
+              <input type="text" placeholder="Поиск по сайту" />
+            </div>
+          </div>
+        </header>
+      </section>
+      <!-- INTRO SLIDER -->
+      <section class="intro_slider">
+        <div class="slider">
+          <div class="swiper mySwiper slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="item">
+                  <div class="info">
+                    <p class="desc">Суперскидка до 60%</p>
+                    <h1 class="heading high title">НА БРИЛЛИАНТЫ</h1>
+                    <button class="btn primary">Подробнее</button>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="
+                        ./resources/images/banner@1x.png 1x,
+                        ./resources/images/banner@2x.png 2x
+                      "
+                    />
+                    <img
+                      class="image"
+                      src="./resources/images/banner@1x.png"
+                      srcset="./resources/images/banner@2x.png 2x"
+                      alt="БРИЛЛИАНТЫ"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="_intro swiper-slide">
+                <div class="item">
+                  <div class="info">
+                    <p class="desc">Суперскидка до 60%</p>
+                    <h1 class="heading high title">НА БРИЛЛИАНТЫ</h1>
+                    <button class="btn primary">Подробнее</button>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="
+                        ./resources/images/banner_2@1x.png 1x,
+                        ./resources/images/banner_2@2x.png 2x
+                      "
+                    />
+                    <img
+                      class="image"
+                      src="./resources/images/banner@1x.png"
+                      srcset="./resources/images/banner@2x.png 2x"
+                      alt="БРИЛЛИАНТЫ"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next btn arrow next">
+            <img src="./resources/images/icons/arrow-right.svg" alt="next" />
+          </div>
+          <div class="swiper-button-prev btn arrow prev">
+            <img src="./resources/images/icons/arrow-left.svg" alt="back" />
+          </div>
+        </div>
+      </section>
+      <!-- POPULAR CATEGORIES -->
+      <section class="popular container">
+        <h2 class="heading midle title">Популярные категории</h2>
+        <div class="row">
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-1@1x.png 1x, ./resources/images/popular/popular-1@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-1@1x.png"
+                    srcset="./resources/images/popular cats/popular-1@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Кольца</p>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-2@1x.png 1x, ./resources/images/popular/popular-2@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-2@1x.png"
+                    srcset="./resources/images/popular cats/popular-2@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Серьги</p>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-3@1x.png 1x, ./resources/images/popular/popular-3@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-3@1x.png"
+                    srcset="./resources/images/popular cats/popular-3@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Помолвочные кольца</p>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-4@1x.png 1x, ./resources/images/popular/popular-4@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-4@1x.png"
+                    srcset="./resources/images/popular cats/popular-4@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Браслеты</p>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-5@1x.png 1x, ./resources/images/popular/popular-5@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-5@1x.png"
+                    srcset="./resources/images/popular cats/popular-5@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Колье и подвески</p>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#" class="card">
+              <div class="image-block">
+                <picture>
+                  <source
+                    src="./resources/images/popular cats/popular-6@1x.png 1x, ./resources/images/popular/popular-6@2x.png 2x"
+                  />
+                  <img
+                    src="./resources/images/popular cats/popular-6@1x.png"
+                    srcset="./resources/images/popular cats/popular-6@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </div>
+              <p class="cat_title">Часы</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- SALE -->
+      <section class="sale container">
+        <h2 class="heading midle title">Распродажа</h2>
+        <div class="head">
+          <div class="categorys">
+            <button class="btn rounded category active">Кольца</button>
+            <button class="btn rounded category">Серьги</button>
+            <button class="btn rounded category">Браслеты</button>
+            <button class="btn rounded category">Часы</button>
+          </div>
+          <div class="btns">
+            <button class="btn arrow prev disabled">
+              <img src="./resources/images/icons/arrow-left.svg" alt="" />
+            </button>
+            <button class="btn arrow next">
+              <img src="./resources/images/icons/arrow-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="swiper mySwiper slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row first">
+                <div class="column">
+                  <div class="card">
+                    <div class="tag">Sale</div>
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"> </span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">41&nbsp;000&nbsp;₽</span>
+                          <span class="price-old">65&nbsp;000&nbsp;₽</span>
+                        </div>
+                        <div class="percent">-45%</div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">56&nbsp;000&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">37&nbsp;500&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">39&nbsp;200&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row first">
+                <div class="column">
+                  <div class="card">
+                    <div class="tag">Sale</div>
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"> </span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-1@1x.png 1x,
+                                ./resources/images/sale/sale-1@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-1@1x.png"
+                              srcset="./resources/images/sale/sale-1@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">41&nbsp;000&nbsp;₽</span>
+                          <span class="price-old">65&nbsp;000&nbsp;₽</span>
+                        </div>
+                        <div class="percent">-45%</div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-2@1x.png 1x,
+                                ./resources/images/sale/sale-2@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-2@1x.png"
+                              srcset="./resources/images/sale/sale-2@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">56&nbsp;000&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-3@1x.png 1x,
+                                ./resources/images/sale/sale-3@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-3@1x.png"
+                              srcset="./resources/images/sale/sale-3@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">37&nbsp;500&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="act">
+                      <div class="action icon-heart">
+                        <span class="icon heart"></span>
+                      </div>
+                      <div class="action">
+                        <span class="icon watch"></span>
+                      </div>
+                    </div>
+                    <div class="swiper mySwiper sale_slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                        <div class="swiper-slide thumb">
+                          <picture>
+                            <source
+                              srcset="
+                                ./resources/images/sale/sale-4@1x.png 1x,
+                                ./resources/images/sale/sale-4@2x.png 2x
+                              "
+                            />
+                            <img
+                              src="./resources/images/sale/sale-4@1x.png"
+                              srcset="./resources/images/sale/sale-4@2x.png 2x"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="body">
+                      <div class="price-block">
+                        <div class="price">
+                          <span class="price-current">39&nbsp;200&nbsp;₽</span>
+                        </div>
+                      </div>
+                      <p class="desc line-clamp">
+                        Стильное кольцо из белого золота c бриллиантами
+                      </p>
+                    </div>
+                    <div class="hide">
+                      <div class="choose toggle-menu">
+                        <p class="value">Белое золото</p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item active">Белое золото</li>
+                            <li class="item">Желтое золото</li>
+                            <li class="item">Серебро</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="choose toggle-menu">
+                        <p>Размер: <span class="value">16</span></p>
+                        <div class="toggle-list">
+                          <ul class="toggle-list-block">
+                            <li class="item">15</li>
+                            <li class="item active">16</li>
+                            <li class="item">17</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row second">
+          <div class="column">
+            <div class="adv first">
+              <p class="desc">Скидки на все украшения с бриллиантами</p>
+              <div class="percent">
+                <span>До</span>
+                <span class="number">-50%</span>
+              </div>
+              <picture>
+                <source
+                  srcset="
+                    ./resources/images/sale/sale-5@1x.png 1x,
+                    ./resources/images/sale/sale-5@2x.png 2x
+                  "
+                />
+                <img
+                  class="image"
+                  src="./resources/images/sale/sale-5@1x.png"
+                  srcset="./resources/images/sale/sale-5@2x.png 2x"
+                  alt=""
+                />
+              </picture>
+              <source />
+            </div>
+          </div>
+          <div class="column">
+            <div class="adv second">
+              <p class="desc">Скидки на&nbsp;кольца и браслеты</p>
+              <div class="percent">
+                <span>До</span>
+                <span class="number">-40%</span>
+              </div>
+              <picture>
+                <source
+                  srcset="
+                    ./resources/images/sale/sale-6@1x.png 1x,
+                    ./resources/images/sale/sale-6@2x.png 2x
+                  "
+                />
+                <img
+                  class="image"
+                  src="./resources/images/sale/sale-6@1x.png"
+                  srcset="./resources/images/sale/sale-6@2x.png 2x"
+                  alt=""
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="column">
+            <div class="adv third">
+              <p class="desc">снижение цен на обручальные кольца</p>
+              <div class="percent">
+                <span>До</span>
+                <span class="number">-60%</span>
+              </div>
+              <picture>
+                <source
+                  srcset="
+                    ./resources/images/sale/sale-7@1x.png 1x,
+                    ./resources/images/sale/sale-7@2x.png 2x
+                  "
+                />
+                <img
+                  class="image"
+                  src="./resources/images/sale/sale-7@1x.png"
+                  srcset="./resources/images/sale/sale-7@2x.png 2x"
+                  alt=""
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DAY PRODUCT -->
+      <section class="product container">
+        <div class="head">
+          <h2 class="heading midle">Товар дня</h2>
+          <div class="btns">
+            <button class="btn arrow prev">
+              <img src="./resources/images/icons/arrow-left.svg" alt="" />
+            </button>
+            <button class="btn arrow next">
+              <img src="./resources/images/icons/arrow-right.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="body">
+          <div class="left-side">
+            <!-- Left side of Day product -->
+            <div class="tags">
+              <div class="tag">New</div>
+              <div class="tag">Хит</div>
+              <div class="tag">Sale</div>
+            </div>
+
+            <div class="swiper mySwiper slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./resources/images/product@1x.png 1x,
+                        ./resources/images/product@2x.png 2x
+                      " />
+                    <img
+                      src="./resources/images/product@1x.png"
+                      srcset="./resources/images/product@2x.png 2x"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./resources/images/product@1x.png 1x,
+                        ./resources/images/product@2x.png 2x
+                      " />
+                    <img
+                      src="./resources/images/product@1x.png"
+                      srcset="./resources/images/product@2x.png 2x"
+                      alt=""
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source
+                      srcset="
+                        ./resources/images/product@1x.png 1x,
+                        ./resources/images/product@2x.png 2x
+                      " />
+                    <img
+                      src="./resources/images/product@1x.png"
+                      srcset="./resources/images/product@2x.png 2x"
+                      alt=""
+                  /></picture>
+                </div>
+              </div>
+
+              <div class="swiper-button-next btn">
+                <img
+                  src="./resources/images/icons/arrow-small.svg"
+                  class="arrow-next"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-button-prev">
+                <img
+                  src="./resources/images/icons/arrow-small.svg"
+                  class="arrow-prev disabled"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="right-side">
+            <!-- Right side of Day product -->
+            <div class="stars">
+              <div class="star">
+                <img src="./resources/images/icons/star-fill.svg" alt="" />
+              </div>
+              <div class="star">
+                <img src="./resources/images/icons/star-fill.svg" alt="" />
+              </div>
+              <div class="star">
+                <img src="./resources/images/icons/star-fill.svg" alt="" />
+              </div>
+              <div class="star">
+                <img src="./resources/images/icons/star-fill.svg" alt="" />
+              </div>
+              <div class="star">
+                <img src="./resources/images/icons/star.svg" alt="" />
+              </div>
+              <span>4,2</span>
+            </div>
+            <h3 class="title heading smalest">
+              Кольцо из золота с бриллиантами
+            </h3>
+            <p class="articul">Артикул: 1012076</p>
+            <div class="info">
+              <div class="price">
+                <span class="price-current">20&nbsp;000&nbsp;₽</span>
+                <span class="price-old">22&nbsp;000&nbsp;₽</span>
+                <span class="percent">-45%</span>
+              </div>
+              <div class="timer">
+                <div class="time-left">
+                  <span class="number hour">12</span>
+                  <span class="desc">часов</span>
+                </div>
+                <span>:</span>
+                <div class="time-left">
+                  <span class="number minutes">46</span>
+                  <span class="desc">минут</span>
+                </div>
+                <span>:</span>
+                <div class="time-left">
+                  <span class="number second">51</span>
+                  <span class="desc">секунд</span>
+                </div>
+              </div>
+            </div>
+            <div class="line_horizontal"></div>
+            <div class="color">
+              <p class="subtitle">цвет</p>
+              <div class="cases">
+                <div class="item">
+                  <div class="choice gray"></div>
+                </div>
+                <div class="item active">
+                  <div class="choice yellow"></div>
+                </div>
+                <div class="item">
+                  <div class="choice orange"></div>
+                </div>
+                <div class="item">
+                  <div class="choice green"></div>
+                </div>
+              </div>
+            </div>
+            <div class="size">
+              <div class="subtitle">
+                <p>РАЗМЕР</p>
+                <div class="info">
+                  <div>
+                    Также как существующая теория напрямую зависит
+                    от экономической целесообразности принимаемых решений.
+                  </div>
+                  <img src="./resources/images/icons/question.svg" alt="" />
+                </div>
+              </div>
+              <div class="size-list">
+                <div class="size-list-item active">16.5</div>
+                <div class="size-list-item">17.5</div>
+                <div class="size-list-item">18.5</div>
+                <div class="size-list-item">19</div>
+                <div class="size-list-item">19.5</div>
+                <div class="size-list-item">18.5</div>
+                <div class="size-list-item">19</div>
+                <div class="size-list-item">19.5</div>
+                <div class="size-list-item disabled">20</div>
+                <div class="size-list-item disabled">20.5</div>
+              </div>
+            </div>
+            <div class="act">
+              <div class="buy">
+                <button class="btn primary add-cart">в корзину</button>
+                <button class="btn primary buy-cta">купить в 1 клик</button>
+              </div>
+              <div class="action-list">
+                <div class="action-item icon-heart">
+                  <span class="icon heart"></span>
+                  <span class="label">Сохранить</span>
+                </div>
+                <div class="action-item">
+                  <span class="icon chart"></span>
+                  <span class="label">Сравнить</span>
+                </div>
+                <div class="action-item">
+                  <span class="icon share"></span>
+                  <span class="label">Поделиться</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ARTICLES -->
+      <section class="articles container">
+        <div class="head">
+          <h2 class="heading midle">Статьи</h2>
+          <a href="#" class="articles-cta">
+            Читать все
+            <img src="./resources/images/icons/arrow-right.svg" alt="" />
+          </a>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./resources/images/articles/articles-1@1x.png 1x,
+                      ./resources/images/articles/articles-1@2x.png 2x
+                    "
+                  />
+                  <img
+                    src="./resources/images/articles/articles-1@1x.png"
+                    srcset="./resources/images/articles/articles-1@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </a>
+              <p class="date">21 сентября 2021</p>
+              <h4 class="title">
+                <a href="#">Обручальные кольца: тренды 2021</a>
+              </h4>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./resources/images/articles/articles-2@1x.png 1x,
+                      ./resources/images/articles/articles-2@2x.png 2x
+                    "
+                  />
+                  <img
+                    src="./resources/images/articles/articles-2@1x.png"
+                    srcset="./resources/images/articles/articles-2@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </a>
+              <p class="date">25 сентября 2021</p>
+              <h4 class="title">
+                <a href="#">Главные ювелирные тренды года</a>
+              </h4>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./resources/images/articles/articles-3@1x.png 1x,
+                      ./resources/images/articles/articles-3@2x.png 2x
+                    "
+                  />
+                  <img
+                    src="./resources/images/articles/articles-3@1x.png"
+                    srcset="./resources/images/articles/articles-3@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </a>
+              <p class="date">21 сентября 2021</p>
+              <h4 class="title">
+                <a href="#"
+                  >Жемчуг: 7 малоизвестных фактов о культовом украшении
+                </a>
+              </h4>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <a href="#">
+                <picture>
+                  <source
+                    srcset="
+                      ./resources/images/articles/articles-4@1x.png 1x,
+                      ./resources/images/articles/articles-4@2x.png 2x
+                    "
+                  />
+                  <img
+                    src="./resources/images/articles/articles-4@1x.png"
+                    srcset="./resources/images/articles/articles-4@2x.png 2x"
+                    alt=""
+                  />
+                </picture>
+              </a>
+              <p class="date">21 сентября 2021</p>
+              <h4 class="title">
+                <a href="#"
+                  >Как отличить золото от подделки: 10 практических советов
+                </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
+    <script src="./resources/js/script.js"></script>
+  </body>
+</html>

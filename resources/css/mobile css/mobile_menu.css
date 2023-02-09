@@ -1,0 +1,163 @@
+/* MOBILE MENU */
+
+.menu-mobile {
+  z-index: 9999;
+  position: fixed;
+  max-width: 100%;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: #d7d7d7;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(300px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.menu-mobile.active {
+  transform: translateX(0);
+}
+.search-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-mobile p {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.search-mobile input {
+  padding: 10px 15px;
+  width: 100%;
+  border: 1px solid #bbb;
+  font-size: 14px;
+}
+
+.categories-mobile {
+  margin: 20px 0;
+}
+
+.cat_mobile {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.cat_mobile::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #303030;
+}
+
+.cat_mobile a {
+  display: block;
+  padding: 20px 0;
+  font-size: 16px;
+  flex: 1;
+  color: #303030;
+}
+
+.menu-mobile .btn.primary {
+  width: 100%;
+  background-color: #303030;
+  color: #ffffff;
+  height: 50px;
+}
+
+.menu-mobile .btn.primary:hover {
+  background-color: #505050;
+}
+
+.menu-mobile .btn.primary:active {
+  background-color: #000000;
+}
+
+.menu-mobile .cat_menu {
+  margin-bottom: 25px;
+}
+
+.login-mobile {
+  display: flex;
+  column-gap: 20px;
+}
+
+.menu-mobile .toggle-menu {
+  margin-top: 30px;
+  position: relative;
+}
+
+.menu-mobile .toggle-menu p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 16px;
+  height: 50px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.menu-mobile .toggle-menu p::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 5px;
+  margin-left: 8px;
+  background: url(../../images/icons/arrow-down.svg);
+  transition: 0.2s ease-in-out;
+}
+
+.menu-mobile .toggle-menu .item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-mobile .toggle-menu.active .toggle-list {
+  display: block;
+}
+
+.menu-mobile .toggle-menu.active p::after {
+  transform: rotate(-180deg);
+}
+
+.menu-mobile .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+.toggle-menu-mobile {
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.toggle-menu-mobile:hover {
+  opacity: 0.5;
+}
+
+.layout {
+  z-index: 10;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.layout.active {
+  opacity: 1;
+  visibility: visible;
+}
